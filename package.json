@@ -1,6 +1,6 @@
 {
   "name": "mosca-lowfat",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "MQTT broker as a module",
   "main": "index.js",
   "bin": {
@@ -45,7 +45,10 @@
     "mosquitto",
     "websocket"
   ],
-  "author": ["Matteo Collina <hello@matteocollina.com>", "Phuc PNT. <pn.truongphuc@gmail.com>"],
+  "author": [
+    "Matteo Collina <hello@matteocollina.com>",
+    "Phuc PNT. <pn.truongphuc@gmail.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
