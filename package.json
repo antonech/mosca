@@ -1,5 +1,5 @@
 {
-  "name": "mosca",
+  "name": "mosca-lowfat",
   "version": "2.0.2",
   "description": "MQTT broker as a module",
   "main": "index.js",
@@ -24,10 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcollina/mosca.git"
+    "url": "https://github.com/phucpnt/mosca.git"
   },
   "bugs": {
-    "url": "http://github.com/mcollina/mosca/issues"
+    "url": "http://github.com/phucpnt/mosca/issues"
   },
   "engines": {
     "node": ">= 0.12"
@@ -45,7 +45,7 @@
     "mosquitto",
     "websocket"
   ],
-  "author": "Matteo Collina <hello@matteocollina.com>",
+  "author": ["Matteo Collina <hello@matteocollina.com>", "Phuc PNT. <pn.truongphuc@gmail.com>"],
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "array-from": "^2.1.1",
-    "ascoltatori": "^3.0.0",
+    "ascoltatori-lowfat": "^3.0.0",
     "brfs": "~1.4.2",
     "clone": "^1.0.2",
     "commander": "~2.9.0",
@@ -97,10 +97,6 @@
     "websocket-stream": "~3.1.0"
   },
   "optionalDependencies": {
-    "leveldown": "~1.4.3",
-    "amqp": "~0.2.4",
-    "ioredis": "^1.15.1",
-    "hiredis": "^0.4.1",
-    "mongodb": "~2.1.4"
+    "amqp": "~0.2.4"
   }
 }

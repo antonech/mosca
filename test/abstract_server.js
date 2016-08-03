@@ -1,5 +1,5 @@
 var steed = require("steed");
-var ascoltatori = require("ascoltatori");
+var ascoltatori = require("ascoltatori-lowfat");
 
 module.exports = function(moscaSettings, createConnection) {
   var instance;
@@ -41,9 +41,9 @@ module.exports = function(moscaSettings, createConnection) {
     });
 
     function finish () {
-      client.removeListener('error', finish)
-      client.stream.removeListener('close', finish)
-      done()
+      client.removeListener('error', finish);
+      client.stream.removeListener('close', finish);
+      done();
     }
   }
 

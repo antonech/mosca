@@ -8,7 +8,7 @@ var tmpdir = require("osenv").tmpdir();
 var path = require("path");
 var rimraf = require("rimraf");
 
-describe("mosca.persistence.LevelUp", function() {
+describe.skip("mosca.persistence.LevelUp", function() {
 
   this.timeout(4000);
 
@@ -31,7 +31,7 @@ describe("mosca.persistence.LevelUp", function() {
 
   describe("two instances", function() {
     it("support restoring from disk", function(done) {
-      var client = { 
+      var client = {
         id: "my client id - 42",
         clean: false,
         logger: pino({ level: "error" }),

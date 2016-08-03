@@ -374,7 +374,7 @@ describe("mosca.cli", function() {
     });
   });
 
-  it("should create a leveldb with the --db flag", function(done) {
+  it.skip("should create a leveldb with the --db flag", function(done) {
 
     tmp.dir(function (err, path, fd) {
       if (err) {
